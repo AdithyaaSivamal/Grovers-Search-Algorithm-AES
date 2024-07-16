@@ -1,4 +1,4 @@
-# Grover's Search Algorithm with AES
+# Grover's Search Algorithm for AES
 
 This repository contains implementations of Grover's Search Algorithm for exploring how it can be used to potentially break an AES key. There are two scripts provided:
 
