@@ -27,6 +27,7 @@ def aes_encrypt(key, plaintext):
     aes_lib.encrypt(key_array, plaintext_array, ciphertext)
     return bytes(ciphertext)
 
+#test inputs
 key = "00112233445566778899aabbccddeeff"
 plaintext = "This is a test"
 expected_ciphertext = bytes.fromhex('3c86e7ec17bb967b9da2f2242d94a634')
